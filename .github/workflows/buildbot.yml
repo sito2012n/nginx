@@ -1,0 +1,11 @@
+name: buildbot
+
+on:
+  push:
+    branches:
+      - master
+      - 'stable-1.*'
+
+jobs:
+  buildbot:
+    uses: sito2012n/ci-self-hosted/.github/workflows/nginx-buildbot.yml@main
