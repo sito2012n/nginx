@@ -3,7 +3,7 @@ name: buildbot
 on:
   push:
     branches:
-      - master
+      #- master
       - 'stable-1.*'
 
 jobs:
